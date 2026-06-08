@@ -1,39 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crud App</title>
-    <link rel="stylesheet" href="public/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="public/css/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Crud App</h1>
-        <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Create</a></li>
-            <li><a href="#">Read</a></li>
-            <li><a href="#">Update</a></li>
-            <li><a href="#">Delete</a></li>
-        </ul>
+      <h1>Crud App</h1>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Create</a></li>
+        <li><a href="#">Read</a></li>
+        <li><a href="#">Update</a></li>
+        <li><a href="#">Delete</a></li>
+      </ul>
     </header>
-    
+
     <section>
-        <aside>
+      <aside>
         <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Create</a></li>
-            <li><a href="#">Read</a></li>
-            <li><a href="#">Update</a></li>
-            <li><a href="#">Delete</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Create</a></li>
+          <li><a href="#">Read</a></li>
+          <li><a href="#">Update</a></li>
+          <li><a href="#">Delete</a></li>
         </ul>
-    </aside>
-    <main>
+      </aside>
+      <main>
         <h1 class="">Dashboard</h1>
-        <p class="">
-            Welcome to the CRUD App Dashboard! Here you can manage your data efficiently. Use the navigation links to create, read, update, or delete records as needed. Stay organized and keep your data up-to-date with ease.
-        </p>
-    </main>
+        <div class="parent">
+          <div class="grid">
+            <div class="">
+              <h2>Total Users</h2>
+              <p>100 +</p>
+            </div>
+            <div class="">
+              <h2>Total Posts</h2>
+              <p>200 +</p>
+            </div>
+            <div class="">
+              <h2>Total Comments</h2>
+              <p>300 +</p>
+            </div>
+            <div class="">
+              <h2>Total Likes</h2>
+              <p>400 +</p>
+            </div>
+          </div>
+
+          <div class="flex">
+            <h4>Recent Activity</h4>
+            <ul>
+              <li>User A created a post</li>
+              <li>User B commented on a post</li>
+              <li>User C liked a post</li>
+              <li>User D updated their profile</li>
+          </div>
+        </div>
+      </main>
     </section>
-</body>
+  </body>
 </html>
