@@ -92,7 +92,8 @@ section main {
 
 .grid div {
   border: 1px solid #ccc;
+  height: fit-content;
   border-radius: 4px;
-  padding: 10px;
+  padding: 20px;
   background-color: rgba(255, 255, 255, 0.5);
 }
